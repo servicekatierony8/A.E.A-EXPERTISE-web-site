@@ -51,7 +51,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100">
               <img
-                src="/src/assets/images/cabinet_office_meeting_1793313109771.jpg"
+                src="images/cabinet_office_meeting_1793313109771.jpg"
                 alt="Direction et experts en réunion au cabinet A.E.A EXPERTISE Plateau Abidjan"
                 className="w-full h-[400px] lg:h-[480px] object-cover"
                 referrerPolicy="no-referrer"

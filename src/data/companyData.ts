@@ -61,7 +61,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Estimation & Évaluation Immobilière",
     shortDesc: "Détermination rigoureuse et certifiée de la valeur vénale, locative et marchande de vos biens.",
     fullDesc: "Estimation experte et certifiée pour particuliers, entreprises et institutions bancaires. Nous déterminons la juste valeur marchande, la valeur vénale en vente normale ou forcée, la valeur locative de référence et la valeur hypothécaire de vos bâtiments résidentiels, immeubles de rapport, complexes commerciaux, terrains nus (ACD), sites industriels et fonds de commerce.",
-    image: "/src/assets/images/real_estate_valuation_inspection_1793313108928.jpg",
+    image: "images/real_estate_valuation_inspection_1793313108928.jpg",
     subCategories: [
       "Estimation vénale d'immeubles, villas de standing et appartements",
       "Évaluation foncière de parcelles nues, lotissements et réserves (ACD)",
@@ -78,7 +78,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Gestion Locative & Administration de Biens",
     shortDesc: "Prise en charge intégrale de votre patrimoine immobilier pour sécuriser et maximiser vos revenus locatifs.",
     fullDesc: "Le Cabinet A.E.A EXPERTISE assure la gestion complète et sereine de vos biens immobiliers à Abidjan et à l'intérieur du pays. De la sélection rigoureuse des locataires à l'encaissement ponctuel des loyers, en passant par le suivi technique des travaux, les états des lieux contradictoires et la gestion des contentieux, nous veillons à la valorisation pérenne de vos actifs.",
-    image: "/src/assets/images/cabinet_office_meeting_1793313109771.jpg",
+    image: "images/cabinet_office_meeting_1793313109771.jpg",
     subCategories: [
       "Recherche, filtrage de solvabilité et installation des locataires",
       "Rédaction des contrats de bail conformes au droit OHADA révisé",
@@ -95,7 +95,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Transaction Immobilière & Conseil en Investissement",
     shortDesc: "Accompagnement d'expert pour l'achat, la vente et la sécurisation juridique de vos opérations immobilières.",
     fullDesc: "Bénéficiez de la caution technique d'un cabinet d'expertise pour vos transactions immobilières. Nous vous accompagnons dans la commercialisation au juste prix de marché, la négociation, la Due Diligence technique avant acquisition et la sécurisation intégrale des titres fonciers (ACD, purge des droits coutumiers, conformité cadastrale).",
-    image: "/src/assets/images/hero_abidjan_architecture_1793313108178.jpg",
+    image: "images/hero_abidjan_architecture_1793313108178.jpg",
     subCategories: [
       "Assistance à la vente et valorisation préalable au prix de marché",
       "Accompagnement à l'acquisition et audit technique préalable du bien",
@@ -112,7 +112,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Constats des Lieux, Sinistres & Dégâts des Eaux",
     shortDesc: "Constats contradictoires d'urgence, chiffrage des désordres et défense des assurés.",
     fullDesc: "En cas d'infiltrations, dégâts des eaux, incendie, fissures ou malfaçons de construction, nos experts interviennent pour dresser un constat technique objectif, identifier la cause racine des désordres et chiffrer précisément les travaux de remise en état face aux assurances et aux tribunaux.",
-    image: "/src/assets/images/industrial_facility_assessment_1793313109515.jpg",
+    image: "images/industrial_facility_assessment_1793313109515.jpg",
     subCategories: [
       "Dégâts des eaux et infiltrations en toiture ou canalisation",
       "Expertise après incendie et risques industriels",
@@ -129,7 +129,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Matériel, Outillage & Sites Industriels",
     shortDesc: "Évaluation technique d'usines de transformation, entrepôts logistiques, parcs machines et matériel d'exploitation.",
     fullDesc: "Spécialisés dans l'évaluation des installations industrielles en Côte d'Ivoire (zones industrielles de Yopougon, Vridi, Koumassi, PK 24, San Pedro), nous calculons la valeur résiduelle, la valeur d'utilité et la valeur à neuf de vos équipements.",
-    image: "/src/assets/images/industrial_facility_assessment_1793313109515.jpg",
+    image: "images/industrial_facility_assessment_1793313109515.jpg",
     subCategories: [
       "Usines agroalimentaires, unités de transformation (cacao, anacarde, hévéa)",
       "Entrepôts logistiques, quais de stockage et plateformes frigorifiques",
@@ -178,7 +178,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Conseil en Investissement, AMO & Études",
     shortDesc: "Assistance technique à maîtrise d'ouvrage, études de faisabilité et stratégie de valorisation de patrimoine foncier.",
     fullDesc: "Pour les investisseurs locaux et de la diaspora désireux de sécuriser un projet de construction ou d'acquisition en Côte d'Ivoire, nous proposons un accompagnement sur mesure pour auditer la rentabilité et le respect des règles de l'art.",
-    image: "/src/assets/images/cabinet_office_meeting_1793313109771.jpg",
+    image: "images/cabinet_office_meeting_1793313109771.jpg",
     subCategories: [
       "Assistance à Maîtrise d'Ouvrage (AMO) pour projets immobiliers",
       "Études de faisabilité technique, financière et urbanistique",

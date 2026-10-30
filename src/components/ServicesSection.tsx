@@ -307,7 +307,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                 <img
                   src={
                     activeService.image ||
-                    '/src/assets/images/real_estate_valuation_inspection_1793313108928.jpg'
+                    'images/real_estate_valuation_inspection_1793313108928.jpg'
                   }
                   alt={activeService.title}
                   className="w-full h-[320px] sm:h-[380px] object-cover"

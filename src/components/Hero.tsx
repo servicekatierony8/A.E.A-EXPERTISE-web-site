@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal, onScrollToSimulato
       {/* Background Image with deliberate contrast scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_abidjan_architecture_1793313108178.jpg"
+          src="images/hero_abidjan_architecture_1793313108178.jpg"
           alt="Vue aérienne du quartier d'affaires du Plateau à Abidjan"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
           referrerPolicy="no-referrer"
