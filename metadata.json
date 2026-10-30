@@ -1,0 +1,7 @@
+{
+  "name": "A.E.A EXPERTISE - Cabinet d'Expertise Immobilière Abidjan",
+  "description": "Cabinet d'Expertise Immobilière, Évaluation Patrimoniale & Foncière, Sinistres et Conseil à Abidjan Plateau, Côte d'Ivoire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
