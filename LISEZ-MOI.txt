@@ -1,0 +1,51 @@
+A.E.A EXPERTISE — SITE VITRINE (VERSION PREMIUM)
+================================================
+
+CONTENU DU DOSSIER
+------------------
+- index.html        : Accueil (hero plein écran, domaines en liste éditoriale,
+                      services en cartes, référence Yamoussoukro, méthode)
+- cabinet.html      : Le Cabinet (présentation, crédibilité, piliers,
+                      clientèles, références, galerie photos)
+- expertises.html   : Nos expertises (4 services détaillés + 10 domaines)
+- methode.html      : Notre méthode en 4 étapes + engagements qualité
+- contact.html      : Coordonnées, horaires avec statut en direct,
+                      itinéraire Google Maps, formulaire WhatsApp
+- assets/css/       : feuille de style du design premium
+- assets/js/        : menu mobile, statut d'ouverture en direct (heure
+                      d'Abidjan), galerie plein écran, formulaire WhatsApp
+- assets/images/    : 13 photos d'illustration + logo officiel du cabinet
+
+DESIGN
+------
+Identité « cabinet premium » : vert très foncé, ivoire et doré,
+titres en Playfair Display. Site 100 % statique : aucun serveur,
+aucune base de données, aucun coût d'hébergement obligatoire.
+
+DÉPLOIEMENT SUR CLOUDFLARE (workers.dev / Pages)
+------------------------------------------------
+Option A — Glisser-déposer (la plus simple) :
+  1. Compresser le CONTENU de ce dossier (ou utiliser le zip fourni).
+  2. Cloudflare → Workers & Pages → Create → Pages → Upload assets.
+  3. Glisser le zip, valider : le site est en ligne en moins d'une minute.
+
+Option B — Depuis GitHub (déploiement automatique à chaque modification) :
+  1. Pousser le contenu de ce dossier à la racine du dépôt GitHub
+     du site A.E.A.
+  2. Cloudflare → Workers & Pages → Create → Pages → Connect to Git.
+  3. Choisir le dépôt, framework « None », dossier de sortie « / » (racine).
+  4. Chaque push sur le dépôt met le site à jour automatiquement.
+
+POINTS D'ATTENTION
+------------------
+- Le formulaire « Demander une expertise » ouvre WhatsApp avec un message
+  pré-rempli vers le mobile du cabinet : (+225) 07 07 52 95 17.
+- Le statut « Ouvert / Fermé » se calcule automatiquement à l'heure
+  d'Abidjan (Lun–Ven 08h00–18h00, Sam–Dim fermé).
+- Les photos sont des photos d'illustration (légendées comme telles) :
+  elles seront remplacées par les vraies photos du cabinet après
+  validation par l'entreprise.
+- Le bandeau « Aperçu de démonstration » en haut de chaque page est à
+  retirer le jour de la mise en ligne officielle (supprimer la ligne
+  <div class="bandeau-demo">…</div> dans chaque page HTML, ainsi que la
+  mention dans le pied de page).
